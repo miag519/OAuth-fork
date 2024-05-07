@@ -7,4 +7,9 @@
 
 <p>Lorem ipsum</p>
 
+<pre>
+<p>This is how much people this user is following: {{ session['user_data']['following']}}</p>
+<p>{{ session['user_data']['login']}} also has {{ session['user_data']['followers']}} followers!</p>
+</pre>
+
 {% endblock %}
